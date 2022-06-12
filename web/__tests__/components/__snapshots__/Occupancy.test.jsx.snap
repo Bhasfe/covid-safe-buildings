@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`doesnt render when data is missing 1`] = `
+<div
+  className="text-center text-sm font-semibold"
+>
+  <span
+    className="font-semibold text-green-600"
+  />
+  <span>
+     / 
+  </span>
+  <span
+    className="font-semibold text-slate-600"
+  />
+</div>
+`;
+
+exports[`renders correctly 1`] = `
+<div
+  className="text-center text-sm font-semibold"
+>
+  <span
+    className="font-semibold text-orange-600"
+  >
+    50
+  </span>
+  <span>
+     / 
+  </span>
+  <span
+    className="font-semibold text-slate-600"
+  >
+    100
+  </span>
+</div>
+`;
